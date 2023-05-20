@@ -1,0 +1,13 @@
+Thanks for purchasing Torrentator! Installation is pretty easy.
+
+- Open the Application folder and click on the MTU.exe file.
+- Enter the license key you received via email.
+- Once you open the program press 'Check For Updates' at the bottom of the window to update to the latest version.
+
+- You also have the standalone Yahoo Account Creator that you can use for whatever you want (i.e. emails for torrent accounts/other programs)
+
+Note: 
+
+Included tracker list may have some outdated and/or banned trackers.
+Look around for your own.
+
