@@ -1,20 +1,20 @@
-# Virus Collection
 
-This repository is a collection of many viruses. Some made by me, some made by others as well. 
+# Virus Collection: A Repository of Varied Viruses
 
-# How To Use
+Welcome to the Virus Collection repository. This curated collection features a compilation of viruses created by different individuals, including myself.
 
-These viruses are tested and they work efficiently so do not try to test them on your own computer, most of the viruses except the ones inside 'joke' folder are dangerous. Remember to not try to test on virtual machine as well because it is connected with the main operating system and these viruses can break it. 
+# How to Use
 
-There are .apk viruses which can connect your device to the victim's device and steal their information. .apk viruses are meant to run on android only, it is suppsoed to be sent to the victim on victim's private IP address's localhost URL, just like metasploit.
+Please note that these viruses have been thoroughly tested and are known to function efficiently. However, it is important to exercise caution and refrain from testing them on your personal computer. Most of the viruses, with the exception of those found in the "joke" folder, pose a significant risk. Additionally, avoid testing them on a virtual machine, as these viruses can potentially compromise the main operating system connected to it.
 
-.exe viruses are for computers and they are meant to be sent to victim as well.
+Included in this collection are .apk viruses designed specifically for Android devices. These viruses can establish a connection between the victim's device and your own, enabling the theft of sensitive information. Remember that .apk viruses should be sent to the victim's private IP address's localhost URL, similar to how Metasploit functions.
 
-Some viruses are unique files, they are specialized viruses for special occasions, but it's easy to use them. All you have to do is to compile them from required compiler software.
+Furthermore, there are .exe viruses intended for use on computers. These viruses should also be sent to the victim's computer for proper operation.
 
-There is one discord stealer as well, it can steal a lot more info than just discord token. It must be sent to victim's computer as well.
+Some viruses within this collection are unique files, tailored for specific occasions. Although they may require compilation using the appropriate compiler software, they are straightforward to use.
+
+Finally, be aware that one of the files included is a Discord stealer capable of extracting extensive information beyond just the Discord token. Similar to the other viruses, this particular file must be sent to the victim's computer.
 
 # Warning
 
-Whatever you will do with these viruses, I won't have any kind of responsibility for that. Use them at your own risk.
-
+It is important to emphasize that I bear no responsibility for any actions performed with these viruses. Any usage of these viruses is solely at your own risk. Proceed with caution and exercise ethical judgment
