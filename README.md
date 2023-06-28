@@ -1,7 +1,7 @@
 
-# Pacifica: A Repository of Varied Viruses
+# Virus Collection: A Repository of Varied Viruses
 
-Welcome to the Pacifica repository. This curated collection features a compilation of viruses created by different individuals, including myself.
+Welcome to the Virus Collection repository. This curated collection features a compilation of viruses created by different individuals, including myself.
 
 # How to Use
 
