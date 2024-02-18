@@ -1,5 +1,3 @@
-**Please give credit if you're publishing any virus that's made by me. (it'd be nice if you give credit)**
-
 # Virus Collection: A Repository of Varied Viruses
 
 Welcome to the Virus Collection repository. This curated collection features a compilation of viruses created by different individuals, including myself.
