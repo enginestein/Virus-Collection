@@ -17,3 +17,7 @@ Finally, be aware that one of the files included is a Discord stealer capable of
 # Warning
 
 It is important to emphasize that I bear no responsibility for any actions performed with these viruses. Any usage of these viruses is solely at your own risk. Proceed with caution and exercise ethical judgment
+
+# Submissions
+
+I am taking submissions for viruses. If you have any virus sample, then you may submit it by opening a pull request.
