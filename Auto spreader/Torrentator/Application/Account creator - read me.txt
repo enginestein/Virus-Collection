@@ -1,4 +1,0 @@
-Open the creator, go to either automatic or manual (semi-automatic), hit 'load for new' to display the captcha, and then type it in and press create account.
-
-Note: Yahoo changes things around often, so you might need to hit 'load for new' a couple of times.
-
