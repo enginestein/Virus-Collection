@@ -1,0 +1,22 @@
+﻿  Source.cpp
+D:\source\repos\No Escape\No Escape\definitions.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\source\repos\No Escape\No Escape\definitions.h(2,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\source\repos\No Escape\No Escape\main.h(311,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(318,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\definitions.h(555,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\definitions.h(562,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\definitions.h(609,11): warning C4566: character represented by universal-character-name '\u4040' cannot be represented in the current code page (1252)
+D:\source\repos\No Escape\No Escape\definitions.h(609,11): warning C4566: character represented by universal-character-name '\u4E02' cannot be represented in the current code page (1252)
+D:\source\repos\No Escape\No Escape\definitions.h(609,11): warning C4566: character represented by universal-character-name '\u7963' cannot be represented in the current code page (1252)
+D:\source\repos\No Escape\No Escape\definitions.h(609,11): warning C4566: character represented by universal-character-name '\u6362' cannot be represented in the current code page (1252)
+D:\source\repos\No Escape\No Escape\definitions.h(609,11): warning C4566: character represented by universal-character-name '\u435D' cannot be represented in the current code page (1252)
+D:\source\repos\No Escape\No Escape\definitions.h(609,11): warning C4566: character represented by universal-character-name '\u510C' cannot be represented in the current code page (1252)
+D:\source\repos\No Escape\No Escape\definitions.h(609,11): warning C4566: character represented by universal-character-name '\u4B52' cannot be represented in the current code page (1252)
+D:\source\repos\No Escape\No Escape\Source.cpp(93,23): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+D:\source\repos\No Escape\No Escape\Source.cpp(189): warning C4715: 'WinMain': not all control paths return a value
+  2 of 288 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  No Escape.vcxproj -> D:\source\repos\No Escape\Release\No Escape.exe

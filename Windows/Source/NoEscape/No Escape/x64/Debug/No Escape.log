@@ -1,0 +1,88 @@
+﻿  Source.cpp
+D:\source\repos\No Escape\No Escape\main.h(715,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\No Escape\No Escape\main.h(721,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\No Escape\No Escape\main.h(727,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\No Escape\No Escape\main.h(733,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\No Escape\No Escape\main.h(739,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\No Escape\No Escape\main.h(745,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\No Escape\No Escape\main.h(713,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(719,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(725,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(731,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(737,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(743,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(775,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\No Escape\No Escape\main.h(773,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\main.h(789,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\No Escape\No Escape\main.h(787,31): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\No Escape\No Escape\Source.cpp(2,1): warning C4005: 'UNICODE': macro redefinition
+D:\source\repos\No Escape\No Escape\Source.cpp(2,1): message : 'UNICODE' previously declared on the command line
+D:\source\repos\No Escape\No Escape\Source.cpp(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\source\repos\No Escape\No Escape\Source.cpp(6,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\source\repos\No Escape\No Escape\Source.cpp(77,9): error C2086: 'BOOLEAN tmp1': redefinition
+D:\source\repos\No Escape\No Escape\main.h(8,9): message : see declaration of 'tmp1'
+D:\source\repos\No Escape\No Escape\Source.cpp(78,7): error C2086: 'DWORD tmp2': redefinition
+D:\source\repos\No Escape\No Escape\main.h(9,7): message : see declaration of 'tmp2'
+D:\source\repos\No Escape\No Escape\Source.cpp(88,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\source\repos\No Escape\No Escape\Source.cpp(89,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(89,9): error C2146: syntax error: missing ';' before identifier 'offset'
+D:\source\repos\No Escape\No Escape\Source.cpp(89,9): error C2065: 'offset': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(89,16): error C2146: syntax error: missing ';' before identifier 'tmp1'
+D:\source\repos\No Escape\No Escape\Source.cpp(91,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(91,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(91,9): error C2146: syntax error: missing ';' before identifier 'byte'
+D:\source\repos\No Escape\No Escape\Source.cpp(91,18): error C2143: syntax error: missing ';' before 'constant'
+D:\source\repos\No Escape\No Escape\Source.cpp(92,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(92,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(92,9): error C2146: syntax error: missing ';' before identifier 'byte'
+D:\source\repos\No Escape\No Escape\Source.cpp(92,18): error C2143: syntax error: missing ';' before 'constant'
+D:\source\repos\No Escape\No Escape\Source.cpp(92,14): error C2086: 'byte ptr': redefinition
+D:\source\repos\No Escape\No Escape\Source.cpp(91,14): message : see declaration of 'ptr'
+D:\source\repos\No Escape\No Escape\Source.cpp(93,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(93,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(93,9): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\source\repos\No Escape\No Escape\Source.cpp(93,9): error C2065: 'dword': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(93,15): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\source\repos\No Escape\No Escape\Source.cpp(93,19): error C2143: syntax error: missing ';' before 'constant'
+D:\source\repos\No Escape\No Escape\Source.cpp(95,4): error C2146: syntax error: missing ';' before identifier 'call'
+D:\source\repos\No Escape\No Escape\Source.cpp(95,4): error C2065: 'call': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(95,9): error C2146: syntax error: missing ';' before identifier 'RtlAdjustPrivilege'
+D:\source\repos\No Escape\No Escape\Source.cpp(97,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(97,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(97,9): error C2146: syntax error: missing ';' before identifier 'offset'
+D:\source\repos\No Escape\No Escape\Source.cpp(97,9): error C2065: 'offset': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(97,16): error C2146: syntax error: missing ';' before identifier 'tmp2'
+D:\source\repos\No Escape\No Escape\Source.cpp(99,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(99,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(99,9): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\source\repos\No Escape\No Escape\Source.cpp(99,9): error C2065: 'dword': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(99,15): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\source\repos\No Escape\No Escape\Source.cpp(99,19): error C2143: syntax error: missing ';' before 'constant'
+D:\source\repos\No Escape\No Escape\Source.cpp(100,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(100,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(100,9): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\source\repos\No Escape\No Escape\Source.cpp(100,9): error C2065: 'dword': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(100,15): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\source\repos\No Escape\No Escape\Source.cpp(100,19): error C2143: syntax error: missing ';' before 'constant'
+D:\source\repos\No Escape\No Escape\Source.cpp(101,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(101,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(101,9): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\source\repos\No Escape\No Escape\Source.cpp(101,9): error C2065: 'dword': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(101,15): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\source\repos\No Escape\No Escape\Source.cpp(101,19): error C2143: syntax error: missing ';' before 'constant'
+D:\source\repos\No Escape\No Escape\Source.cpp(102,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(102,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(102,9): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\source\repos\No Escape\No Escape\Source.cpp(102,9): error C2065: 'dword': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(102,15): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\source\repos\No Escape\No Escape\Source.cpp(102,19): error C2143: syntax error: missing ';' before 'constant'
+D:\source\repos\No Escape\No Escape\Source.cpp(104,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\source\repos\No Escape\No Escape\Source.cpp(104,4): error C2065: 'push': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(104,9): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\source\repos\No Escape\No Escape\Source.cpp(104,9): error C2065: 'dword': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(104,15): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\source\repos\No Escape\No Escape\Source.cpp(104,19): error C2143: syntax error: missing ';' before 'constant'
+D:\source\repos\No Escape\No Escape\Source.cpp(106,4): error C2146: syntax error: missing ';' before identifier 'call'
+D:\source\repos\No Escape\No Escape\Source.cpp(106,4): error C2065: 'call': undeclared identifier
+D:\source\repos\No Escape\No Escape\Source.cpp(106,9): error C2146: syntax error: missing ';' before identifier 'NtRaiseHardError'
+D:\source\repos\No Escape\No Escape\Source.cpp(107,3): error C2143: syntax error: missing ';' before '}'
