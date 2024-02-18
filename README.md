@@ -1,5 +1,4 @@
-**The license is GPL-v3, credit required if you publish the virus somewhere. (it'd be nice of you if you gave credit, I worked kinda hard to gather all these viruses :)** 
-
+**Please give credit if you're publishing any virus that's made by me. (it'd be nice if you give credit)**
 
 # Virus Collection: A Repository of Varied Viruses
 
