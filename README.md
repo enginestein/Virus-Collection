@@ -1,5 +1,7 @@
 # Virus Collection: A Repository of Varied Viruses
 
+*well thank you for a hundred stars.*
+
 Welcome to the Virus Collection repository. This curated collection features a compilation of viruses created by different individuals, including myself.
 
 # Warning
